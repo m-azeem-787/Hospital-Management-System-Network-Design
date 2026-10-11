@@ -14,16 +14,7 @@ A **Cisco Packet Tracer** network simulation for a hospital environment. The des
 
 The topology contains two routers connected through a serial link. Each router connects to a switch, and the switches connect the departmental devices and servers.
 
-```mermaid
-flowchart TB
-    R0["Router0<br/>Serial: 10.1.1.1"] <-->|"Serial link"| R1["Router1<br/>Serial: 10.1.1.2"]
-    R0 -->|"Trunk link"| S0["Switch0"]
-    R1 -->|"Trunk link"| S1["Switch1"]
-    S0 --> V10["VLAN 10 — Reception<br/>PC0, PC1"]
-    S0 --> V20["VLAN 20 — Servers<br/>Main server, Backup server"]
-    S1 --> V30["VLAN 30 — Doctors<br/>PC2, Laptop0"]
-    S1 --> V40["VLAN 40 — Admin & Nurses<br/>PC3, PC4, PC5"]
-```
+<img width="974" height="511" alt="image" src="https://github.com/user-attachments/assets/126c3384-f44e-4c9f-b042-a602e177225e" />
 
 ## VLANs and IP Addressing
 
