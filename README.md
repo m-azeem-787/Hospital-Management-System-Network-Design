@@ -39,11 +39,11 @@ The report uses `/24` subnets (`255.255.255.0`) and identifies `.1` as the inten
 
 ### DHCP
 
-The main server is used to assign IP configuration dynamically through DHCP pools for the hospital networks. The addressing shown in the report uses `8.8.8.8` as the DNS server.
+The main server is used to assign IP configuration dynamically through DHCP pools for the hospital networks.
 
 ### FTP
 
-The backup server has its FTP service enabled to support file transfer. Use the server's configured account details when testing FTP from a client device; do not publish passwords in this repository.
+The backup server has its FTP service enabled to support file transfer. Use the server's configured account details when testing FTP from a client device.
 
 ## Scope
 
